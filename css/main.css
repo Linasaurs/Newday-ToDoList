@@ -1,0 +1,175 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+html {
+  background-image: linear-gradient(#72B1BC, #A4D5DE);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: transparent;
+  flex-flow: row wrap;
+}
+
+#header {
+  font-size: 40px;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  align-items: baseline;
+}
+
+.title {
+  font-family: 'Exo', sans-serif;
+  margin-right: 10px;
+  text-shadow: 2px 2px rgba(41, 99, 109, 0.5);
+}
+
+.sun-icon {
+  font-size: 32px;
+  color: #f7f06c;
+  text-shadow: 1px 1px rgba(41, 99, 109, 0.3);
+}
+
+#input-item-box {
+  margin-top: 20px;
+  padding: 20px 20px;
+  width: 80%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  border-radius: 15px;
+  border-color: transparent;
+  box-shadow: 3px 4px 1px 1pt rgba(41, 99, 109, 0.4);
+  color: #5c9ca5;
+}
+
+.stats{
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 1px rgba(41, 99, 109, 0.5);
+  margin-top:5px;
+}
+
+.stats .fa-check-circle {
+  color:white;
+  margin: 5px;
+}
+
+.stats .fa-exclamation-triangle{
+  color: #B73838;
+  margin:5px;
+}
+
+.stats .fa-star{
+  color:#F7F06D;
+  margin:5px;
+}
+
+#input-item-box::placeholder {
+  color: #aabec1
+}
+
+#input-item-box:focus {
+  box-shadow: 1px 1px 1px 1pt rgba(41, 99, 109, 0.3);
+  outline: none;
+  outline-style: none;
+}
+
+.edit-input {
+  border-radius: 15px;
+  border-color: transparent;
+  box-shadow: 1px 1px 1px 1px rgba(41, 99, 109, 0.4);
+  outline: none;
+  outline-style: none;
+  color:rgb(41, 99, 109,0.8);
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  padding-left:10px;
+}
+
+#to-do-list {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px
+}
+
+#to-do-list li {
+  background-color: white;
+  list-style-type: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: #5c9ca5;
+  padding: 15px 15px;
+  box-shadow: 1px 1px 0px 1pt rgba(41, 99, 109, 0.4);
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.checkbox {
+  margin-right: 10px !important;
+  display: inline-block;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.list-item-actions {
+  display: inline-flex;
+  align-self: flex-end;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.list-item-actions i {
+  margin-right: 10px;
+}
+
+.fa-star {
+  color: #f2b910;
+}
+
+.fa-trash {
+  color: #b73838
+}
+
+.timestamp {
+  margin-left: 10px;
+  font-size: 0.9em;
+}
